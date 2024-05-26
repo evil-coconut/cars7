@@ -25,4 +25,16 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+     - assets/images/placeholder.png
+     - assets/images/background_pc.png
   
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 800
