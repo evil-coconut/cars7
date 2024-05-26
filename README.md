@@ -1,16 +1,21 @@
-# cars7
+## Проект для Cars7
+Мобильное приложение, которое позволяет делать фотографию и добавляет на нее промокод
 
-A new Flutter project.
+### Функции приложения
+___
+#### При загрузки приложения мы появляемся на главном экране: 
+![Главный экран](https://raw.githubusercontent.com/evil-coconut/cars7/d381df9eef5e7b8ea02da900f8bee847bc0764e2/main_screen.jpg)
+#### Далее при нажатии кнопки "Поменять картинку", мы переходим на экран камеры:
+![Экран камеры](https://raw.githubusercontent.com/evil-coconut/cars7/d381df9eef5e7b8ea02da900f8bee847bc0764e2/camera_screen.jpg)
+##### Все кнопки рабочие. 
+1. Кнопка закрытия(находится в AppBar), возвращает нас на главный экран без фотографии. 
+2. Кнопка смены камеры.
+3. Кнопка снимка, делает фотографию и открывает экран превью.
+4. Кнопка включения вспышки, активируется при нажатии и в момент снимка делает вспышку.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Когда делаем снимок, открывается превьюшка, в которой решаем оставлять снимок или переделать:
+![Экран превью](https://raw.githubusercontent.com/evil-coconut/cars7/d381df9eef5e7b8ea02da900f8bee847bc0764e2/preview_screen.jpg)
+#### Нажатием кнопки принять, мы возвращаемся на главный экран с нашей фотографией:
+![Главный экран с картинкой](https://raw.githubusercontent.com/evil-coconut/cars7/d381df9eef5e7b8ea02da900f8bee847bc0764e2/promotional_code.jpg)
+#### Промокод свободно двигается в пределах картинки
+___
